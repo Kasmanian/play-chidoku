@@ -136,7 +136,7 @@ const onload = function() {
 }
 
 const keyOn = function() {
-    keydir = { 87: 1, 65: 0, 83: 1, 68: 0, 32: 2 };
+    keydir = { 87: 1, 65: 0, 83: 1, 68: 0, 38: 1, 37: 0, 40: 1, 39: 0, 'w': 1, 'a': 0, 's': 1, 'd': 0 };
 }
 
 const keyOff = function() {
