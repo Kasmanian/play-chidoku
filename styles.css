@@ -22,7 +22,6 @@ p {
 }
 
 body {
-    touch-action: pan-x pan y;
     -webkit-transition: background-color .4s ease-out;
     -moz-transition: background-color .4s ease-out;
     -o-transition: background-color .4s ease-out;
@@ -162,6 +161,7 @@ img {
 }
 
 .controller {
+    touch-action: manipulation;
     -webkit-transition: background-color .4s ease-out;
     -moz-transition: background-color .4s ease-out;
     -o-transition: background-color .4s ease-out;
